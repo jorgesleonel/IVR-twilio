@@ -1,18 +1,18 @@
 <?php
 	$directory = array(
 		'1'=> array(
-			'phone'=>'415-555-2222',
-			'firstname' => 'Joe',
-			'lastname' => 'Doe'
+			'phone'=>'413-333-1111',
+			'firstname' => 'James',
+			'lastname' => 'King'
 		),
 		'2'=> array(
-			'phone'=>'415-555-3333',
-			'firstname' => 'Eric',
-			'lastname' => 'Anderson'
+			'phone'=>'413-333-2222',
+			'firstname' => 'Ana',
+			'lastname' => 'Linz'
 		),
 		'3'=> array(
-			'phone'=>'415-555-4444',
-			'firstname' => 'John',
-			'lastname' => 'Easton'
+			'phone'=>'413-333-3333',
+			'firstname' => 'Jim',
+			'lastname' => 'Alley'
 		),
 	);
