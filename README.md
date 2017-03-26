@@ -9,3 +9,5 @@ The code is straightforward
 . switch control command will then execute a different action depending on number pressed
 
 . most of this functionality is enabled through a combination of say (sound is played to end user) and gather (input) Twilio TwiML directives
+
+. the <Redirect> verb transfers control of a call to the TwiML at a different URL
