@@ -1,9 +1,11 @@
 # Basic IVR (voice portal) using Twilio API
 
-This is a simple voice portal implemented in Python leveraging the powerful Twilio voice API
+This is a simple voice portal implemented in PHP leveraging the powerful Twilio voice API
 
 The code is straightforward
 
-. first couple of lines perform basic initialization
+. in first couple of lines, variable $user_pushed is created & associated with phone keyboard input
 
-. most of the voice portal functionality is enabled through a combination of say and gather Twilio TwiML directives
+. switch control command will then execute a different action depending on number pressed
+
+. most of this functionality is enabled through a combination of say (sound is played to end user) and gather (input) Twilio TwiML directives
