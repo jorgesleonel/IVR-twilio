@@ -2,12 +2,12 @@
 
 This is a simple voice portal implemented in PHP leveraging the powerful Twilio voice API
 
-The code is straightforward
+Code is straightforward:
 
-. in first couple of lines, variable $user_pushed is created & associated with phone keyboard input
+. In first couple of lines, variable $user_pushed is created & associated with phone keyboard input
 
-. switch control command will then execute a different action depending on number pressed
+. Switch control command will then execute a different action depending on number pressed
 
-. most of this functionality is enabled through a combination of say (sound is played to end user) and gather (input) Twilio TwiML directives
+. Most of this functionality is enabled through a combination of say (sound is played to end user) and gather (input) Twilio TwiML directives
 
-. the Redirect verb transfers control of a call to the TwiML at a different URL
+. The Redirect verb transfers control of a call to the TwiML at a different URL
